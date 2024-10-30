@@ -33,7 +33,7 @@ def number_dice_roles(target_faces):
         
         # Print horizontal line after each row, except the last one
         if n != sample_size[-1]:
-            print("-" * 42)
+            print("-" * 42)#printing - 42 times
         
 # Define target faces
 target_faces = [1, 3, 6]
