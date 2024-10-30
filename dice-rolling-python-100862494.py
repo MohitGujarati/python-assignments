@@ -2,6 +2,7 @@ import random
 
 # Name :- Mohit Gujarati
 # Student id :-100862494
+# code link :- https://github.com/MohitGujarati/python-assignments
 
 # Function to roll the dice n times  and cout occurrences of target face
 def roll_dice(target_faces,n):
@@ -18,7 +19,7 @@ def cal_probability(face_count,n):
 def number_dice_roles(target_face):
     sample_size=[10,100,1000]
     
-    # Loop over each samole size and calculate probabilities
+    # Loop over each sample size and calculate probabilities
     for n in sample_size:
         face_count=roll_dice(target_face,n)
         probabilities=cal_probability(face_count,n)
