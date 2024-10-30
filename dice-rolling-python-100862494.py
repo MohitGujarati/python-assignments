@@ -1,5 +1,9 @@
 import random
 
+# Name :- Mohit Gujarati
+# Student id :-100862494
+# Github link:https://github.com/MohitGujarati/python-assignments/tree/assignment-version-2
+
 # Function to roll the dice n times and count occurrences of target face
 def roll_dice(target_faces, n):
     rolls = [random.randint(1, 6) for _ in range(n)]  # simulate dice rolls
